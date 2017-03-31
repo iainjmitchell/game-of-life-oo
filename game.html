@@ -1,0 +1,189 @@
+<head>
+  <style>
+    .grid .grid__cell {
+      display: inline-block;
+      border: 1px solid black;
+      height: 10px;
+      width: 10px;
+      margin: 0;
+    }
+
+    .grid .grid__cell.live {
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="content"></div>
+
+  <div class="grid">
+    <div class="grid__row">
+      <div id="x1y1" class="grid__cell"></div>
+      <div id="x2y1" class="grid__cell"></div>
+      <div id="x3y1" class="grid__cell"></div>
+      <div id="x4y1" class="grid__cell"></div>
+      <div id="x5y1" class="grid__cell"></div>
+      <div id="x6y1" class="grid__cell"></div>
+      <div id="x7y1" class="grid__cell"></div>
+      <div id="x8y1" class="grid__cell"></div>
+      <div id="x9y1" class="grid__cell"></div>
+      <div id="x10y1" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y2" class="grid__cell"></div>
+      <div id="x2y2" class="grid__cell"></div>
+      <div id="x3y2" class="grid__cell"></div>
+      <div id="x4y2" class="grid__cell"></div>
+      <div id="x5y2" class="grid__cell"></div>
+      <div id="x6y2" class="grid__cell"></div>
+      <div id="x7y2" class="grid__cell"></div>
+      <div id="x8y2" class="grid__cell"></div>
+      <div id="x9y2" class="grid__cell"></div>
+      <div id="x10y2" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y3" class="grid__cell"></div>
+      <div id="x2y3" class="grid__cell"></div>
+      <div id="x3y3" class="grid__cell"></div>
+      <div id="x4y3" class="grid__cell"></div>
+      <div id="x5y3" class="grid__cell"></div>
+      <div id="x6y3" class="grid__cell"></div>
+      <div id="x7y3" class="grid__cell"></div>
+      <div id="x8y3" class="grid__cell"></div>
+      <div id="x9y3" class="grid__cell"></div>
+      <div id="x10y3" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y4" class="grid__cell"></div>
+      <div id="x2y4" class="grid__cell"></div>
+      <div id="x3y4" class="grid__cell"></div>
+      <div id="x4y4" class="grid__cell"></div>
+      <div id="x5y4" class="grid__cell"></div>
+      <div id="x6y4" class="grid__cell"></div>
+      <div id="x7y4" class="grid__cell"></div>
+      <div id="x8y4" class="grid__cell"></div>
+      <div id="x9y4" class="grid__cell"></div>
+      <div id="x10y4" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y5" class="grid__cell"></div>
+      <div id="x2y5" class="grid__cell"></div>
+      <div id="x3y5" class="grid__cell"></div>
+      <div id="x4y5" class="grid__cell"></div>
+      <div id="x5y5" class="grid__cell"></div>
+      <div id="x6y5" class="grid__cell"></div>
+      <div id="x7y5" class="grid__cell"></div>
+      <div id="x8y5" class="grid__cell"></div>
+      <div id="x9y5" class="grid__cell"></div>
+      <div id="x10y5" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y6" class="grid__cell"></div>
+      <div id="x2y6" class="grid__cell"></div>
+      <div id="x3y6" class="grid__cell"></div>
+      <div id="x4y6" class="grid__cell"></div>
+      <div id="x5y6" class="grid__cell"></div>
+      <div id="x6y6" class="grid__cell"></div>
+      <div id="x7y6" class="grid__cell"></div>
+      <div id="x8y6" class="grid__cell"></div>
+      <div id="x9y6" class="grid__cell"></div>
+      <div id="x10y6" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y7" class="grid__cell"></div>
+      <div id="x2y7" class="grid__cell"></div>
+      <div id="x3y7" class="grid__cell"></div>
+      <div id="x4y7" class="grid__cell"></div>
+      <div id="x5y7" class="grid__cell"></div>
+      <div id="x6y7" class="grid__cell"></div>
+      <div id="x7y7" class="grid__cell"></div>
+      <div id="x8y7" class="grid__cell"></div>
+      <div id="x9y7" class="grid__cell"></div>
+      <div id="x10y7" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y8" class="grid__cell"></div>
+      <div id="x2y8" class="grid__cell"></div>
+      <div id="x3y8" class="grid__cell"></div>
+      <div id="x4y8" class="grid__cell"></div>
+      <div id="x5y8" class="grid__cell"></div>
+      <div id="x6y8" class="grid__cell"></div>
+      <div id="x7y8" class="grid__cell"></div>
+      <div id="x8y8" class="grid__cell"></div>
+      <div id="x9y8" class="grid__cell"></div>
+      <div id="x10y8" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y9" class="grid__cell"></div>
+      <div id="x2y9" class="grid__cell"></div>
+      <div id="x3y9" class="grid__cell"></div>
+      <div id="x4y9" class="grid__cell"></div>
+      <div id="x5y9" class="grid__cell"></div>
+      <div id="x6y9" class="grid__cell"></div>
+      <div id="x7y9" class="grid__cell"></div>
+      <div id="x8y9" class="grid__cell"></div>
+      <div id="x9y9" class="grid__cell"></div>
+      <div id="x10y9" class="grid__cell"></div>
+    </div>
+    <div class="grid__row">
+      <div id="x1y10" class="grid__cell"></div>
+      <div id="x2y10" class="grid__cell"></div>
+      <div id="x3y10" class="grid__cell"></div>
+      <div id="x4y10" class="grid__cell"></div>
+      <div id="x5y10" class="grid__cell"></div>
+      <div id="x6y10" class="grid__cell"></div>
+      <div id="x7y10" class="grid__cell"></div>
+      <div id="x8y10" class="grid__cell"></div>
+      <div id="x9y10" class="grid__cell"></div>
+      <div id="x10y10" class="grid__cell"></div>
+    </div>
+  </div>
+  <button id="start">Start</button>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+      var content = document.getElementById('content');
+      var socket = new WebSocket('ws://localhost:1337');
+
+      socket.onmessage = function (rawMessage) {
+        var message = JSON.parse(rawMessage.data);
+        var cell = "#x" + message.x + "y" + message.y;
+        if (message.cellState === 'live'){
+          $(cell).addClass('live');
+        }
+        else {
+          $(cell).removeClass('live');
+        }
+      };
+
+      socket.onerror = function (error) {
+          console.log('WebSocket error: ' + error);
+      };
+
+      $('.grid__cell').on('click', function(){
+        var cell = $(this);
+        if (cell.hasClass('live')){
+          cell.removeClass('live');
+        }
+        else {
+          cell.addClass('live');
+        }
+      });
+
+      $('#start').on('click', function(){
+        var cells = $('.grid__cell');
+        var seed = $.map(cells, function(cell){
+          return {
+            x: cell.id.toString().match(/\x(.*?)y/)[1],
+            y: cell.id.toString().match(/\y(.*?)$/)[1],
+            cellState : $(cell).hasClass('live') ? 'live' : 'dead'
+          };
+        });
+        socket.send(JSON.stringify(seed));
+      });
+  </script>
+</body>
